@@ -38,6 +38,7 @@ async def verify(ctx, email_address):
             members = ctx.guild.members
             found = False
             for i in members:
+                print(i.nick)
                 if i.nick == (j[-1] + " (" + " ".join(j[1:-1]) + ")"):
                     found = True
             if found == False:

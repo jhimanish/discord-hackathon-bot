@@ -22,6 +22,21 @@ async def on_ready():
     print(f"{bot.user.name} has connected to Discord!")
 
 
+@bot.command(name="info", pass_context=True)
+@commands.has_any_role("MakeUofT Director", "MakeUofT Organizer", "IEEE")
+async def info(ctx, *, name):
+    # reading files
+    participants_arr = []
+    with open("participants.txt") as f:
+        participants_arr = f.read().splitlines()
+
+    # check if in participants list
+    for i in participants_arr:
+        j = i.split()
+        if name.lower() in (" ".join(j[1:])).lower():
+            await ctx.send(" ".join(j))
+
+
 @bot.command(name="verify", pass_context=True)
 async def verify(ctx, email_address):
     # reading files

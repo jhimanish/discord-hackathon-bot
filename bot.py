@@ -12,7 +12,8 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 
 # 2
 # bot = commands.Bot(command_prefix="!")
-intents = discord.Intents(presences=True, members=True)
+intents = discord.Intents.default()
+intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 
@@ -38,11 +39,9 @@ async def verify(ctx, email_address):
         if j[0].lower() == email_address.lower():
             # check if user already exists
             members = ctx.guild.members
-            print("HELLO")
-            print(members)
             found = False
             for i in members:
-                if i.name == (j[-1] + " (" + " ".join(j[1:-1]) + ")"):
+                if i.nick == (j[-1] + " (" + " ".join(j[1:-1]) + ")"):
                     found = True
             if found == False:
                 # send message about being verified

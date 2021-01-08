@@ -40,6 +40,7 @@ async def info(ctx, *, name):
 @bot.command(name="verify", pass_context=True)
 async def verify(ctx, email_address):
 
+    already_verified = False
     # check if user is already verified
     for role in ctx.author.roles:
         if "Hacker" == role.name or "IEEE" == role.name:

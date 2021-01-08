@@ -56,7 +56,9 @@ async def verify(ctx, email_address):
             members = ctx.guild.members
             found = False
             for i in members:
-                if i.nick == (j[-1] + " (" + " ".join(j[1:-1]) + ")"):
+                if (i.nick == (j[-1] + " (" + " ".join(j[1:-1]) + ")")) and (
+                    "IEEE" in i.roles
+                ):
                     found = True
             if found == False:
                 # send message about being verified
@@ -82,7 +84,7 @@ async def verify(ctx, email_address):
             members = ctx.guild.members
             found = False
             for i in members:
-                if i.nick == (" ".join(j[1:])):
+                if (i.nick == (" ".join(j[1:]))) and ("Hacker" in i.roles):
                     found = True
             if found == False:
                 # send message about being verified

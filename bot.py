@@ -39,68 +39,80 @@ async def info(ctx, *, name):
 
 @bot.command(name="verify", pass_context=True)
 async def verify(ctx, email_address):
-    # reading files
-    ieee_list_arr = []
-    with open("ieeemembers.txt") as f:
-        ieee_list_arr = f.read().splitlines()
 
-    participants_arr = []
-    with open("participants.txt") as f:
-        participants_arr = f.read().splitlines()
-
-    # checking for ieee email address
-    for i in ieee_list_arr:
-        j = i.split()
-        if j[0].lower() == email_address.lower():
-            # check if user already exists
-            members = ctx.guild.members
-            found = False
-            for i in members:
-                if i.nick == (j[-1] + " (" + " ".join(j[1:-1]) + ")"):
-                    for role in i.roles:
-                        if "IEEE" == role.name:
-                            found = True
-            if found == False:
-                # send message about being verified
-                await ctx.send("You have been verified", delete_after=3.0)
-                # perms
-                await ctx.author.edit(nick=j[-1] + " (" + " ".join(j[1:-1]) + ")")
-                role = discord.utils.get(ctx.guild.roles, name="IEEE")
-                await ctx.author.add_roles(role)
-                role = discord.utils.get(ctx.guild.roles, name=" ".join(j[1:-1]))
-                await ctx.author.add_roles(role)
-            if found == True:
-                await ctx.send(
-                    "This email has already been used. If this is an error, please contact @Himanish",
-                    delete_after=3.0,
-                )
+    # check if user is already verified
+    for role in ctx.author.roles:
+        if "Hacker" == role.name or "IEEE" == role.name:
+            already_verified = True
+            await ctx.send(
+                "You cannot use this command as you have already been verified.",
+                delete_after=3.0,
+            )
             break
 
-    # checking for participant email address
-    for i in participants_arr:
-        j = i.split()
-        if j[0].lower() == email_address.lower():
-            # check if user already exists
-            members = ctx.guild.members
-            found = False
-            for i in members:
-                if i.nick == (" ".join(j[1:])):
-                    for role in i.roles:
-                        if "Hacker" == role.name:
-                            found = True
-            if found == False:
-                # send message about being verified
-                await ctx.send("You have been verified", delete_after=3.0)
-                # perms
-                await ctx.author.edit(nick=" ".join(j[1:]))
-                role = discord.utils.get(ctx.guild.roles, name="Hacker")
-                await ctx.author.add_roles(role)
-            if found == True:
-                await ctx.send(
-                    "This email has already been used. If this is an error, please contact @Himanish",
-                    delete_after=3.0,
-                )
-            break
+    if already_verified == False:
+        # reading files
+        ieee_list_arr = []
+        with open("ieeemembers.txt") as f:
+            ieee_list_arr = f.read().splitlines()
+
+        participants_arr = []
+        with open("participants.txt") as f:
+            participants_arr = f.read().splitlines()
+
+        # checking for ieee email address
+        for i in ieee_list_arr:
+            j = i.split()
+            if j[0].lower() == email_address.lower():
+                # check if user already exists
+                members = ctx.guild.members
+                found = False
+                for i in members:
+                    if i.nick == (j[-1] + " (" + " ".join(j[1:-1]) + ")"):
+                        for role in i.roles:
+                            if "IEEE" == role.name:
+                                found = True
+                if found == False:
+                    # send message about being verified
+                    await ctx.send("You have been verified", delete_after=3.0)
+                    # perms
+                    await ctx.author.edit(nick=j[-1] + " (" + " ".join(j[1:-1]) + ")")
+                    role = discord.utils.get(ctx.guild.roles, name="IEEE")
+                    await ctx.author.add_roles(role)
+                    role = discord.utils.get(ctx.guild.roles, name=" ".join(j[1:-1]))
+                    await ctx.author.add_roles(role)
+                if found == True:
+                    await ctx.send(
+                        "This email has already been used. If this is an error, please contact @Himanish",
+                        delete_after=3.0,
+                    )
+                break
+
+        # checking for participant email address
+        for i in participants_arr:
+            j = i.split()
+            if j[0].lower() == email_address.lower():
+                # check if user already exists
+                members = ctx.guild.members
+                found = False
+                for i in members:
+                    if i.nick == (" ".join(j[1:])):
+                        for role in i.roles:
+                            if "Hacker" == role.name:
+                                found = True
+                if found == False:
+                    # send message about being verified
+                    await ctx.send("You have been verified", delete_after=3.0)
+                    # perms
+                    await ctx.author.edit(nick=" ".join(j[1:]))
+                    role = discord.utils.get(ctx.guild.roles, name="Hacker")
+                    await ctx.author.add_roles(role)
+                if found == True:
+                    await ctx.send(
+                        "This email has already been used. If this is an error, please contact @Himanish",
+                        delete_after=3.0,
+                    )
+                break
 
     await ctx.message.delete(delay=3.0)
 

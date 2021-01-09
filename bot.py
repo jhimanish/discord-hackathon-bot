@@ -34,7 +34,13 @@ async def info(ctx, *, name):
     for i in participants_arr:
         j = i.split()
         if name.lower() in (" ".join(j[1:])).lower():
-            await ctx.send(" ".join(j))
+            new_message = " ".join(j)
+            # create an @ for them in the channel
+            members = ctx.guild.members
+            for i in members:
+                if i.nick == " ".join(j[1:]):
+                    new_message2 = new_message + " " + i.mention
+            await ctx.send(new_message2)
 
 
 @bot.command(name="verify", pass_context=True)
@@ -121,11 +127,12 @@ async def verify(ctx, email_address):
 @bot.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.errors.MissingRequiredArgument):
-        await ctx.send(
-            "You must type `!verify your_email_address` into the chat below to be verified.",
-            delete_after=3.0,
-        )
-        await ctx.message.delete(delay=3.0)
+        if ctx.message.content == "!verify":
+            await ctx.send(
+                "You must type `!verify your_email_address` into the chat below to be verified.",
+                delete_after=3.0,
+            )
+            await ctx.message.delete(delay=3.0)
 
 
 @bot.listen()

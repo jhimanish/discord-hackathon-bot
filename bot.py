@@ -128,11 +128,11 @@ async def on_command_error(ctx, error):
         await ctx.message.delete(delay=3.0)
 
 
-"""
-@bot.command(pass_context=True)
-async def deletethis(ctx):
-    if ctx.message.channel.name == "verification":
-        await ctx.message.delete(delay=1.0)
-"""
+@bot.listen()
+async def on_message(message):
+    split_message = message.content.split()
+    if split_message[0] != "!verify" and message.channel.name == "verification":
+        await message.delete(delay=3.0)
+
 
 bot.run(TOKEN)

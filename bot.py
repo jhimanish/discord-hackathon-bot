@@ -118,4 +118,21 @@ async def verify(ctx, email_address):
     await ctx.message.delete(delay=3.0)
 
 
+@bot.event
+async def on_command_error(ctx, error):
+    if isinstance(error, commands.errors.MissingRequiredArgument):
+        await ctx.send(
+            "You must type `!verify your_email_address` into the chat below to be verified.",
+            delete_after=3.0,
+        )
+        await ctx.message.delete(delay=3.0)
+
+
+"""
+@bot.command(pass_context=True)
+async def deletethis(ctx):
+    if ctx.message.channel.name == "verification":
+        await ctx.message.delete(delay=1.0)
+"""
+
 bot.run(TOKEN)

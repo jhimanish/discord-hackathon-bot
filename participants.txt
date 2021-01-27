@@ -7,6 +7,7 @@ navidrahman5@gmail.com male no-answer RyersonUniversity undergraduate 2023 Taski
 victor.lu@mail.utoronto.ca no-answer no-answer TheUniversityofToronto undergraduate 2021 Victor Lu
 arjen.arumalingam@ryerson.ca male other RyersonUniversity undergraduate 2023 Arjen Arumalingam
 yaduyem@gmail.com male asian-pacific-islander RyersonUniversity undergraduate 2022 Yadu Krishnan Madhu
+asamara5@uwo.ca female other WesternUniversity undergraduate 2023 Anusha Samarabandu
 4chealsie.9@gmail.com female asian-pacific-islander TheUniversityofWaterloo undergraduate 2024 Chealsie Bains
 kinzunz@uwo.ca male hispanic TheUniversityofWesternOntario undergraduate 2023 Kyle Inzunza
 Meihua.1@hotmail.com female asian-pacific-islander UniversityofWaterloo undergraduate 2025 Meihua Li
@@ -115,7 +116,7 @@ jack.cai@mail.utoronto.ca male asian-pacific-islander TheUniversityofToronto und
 zl755@cornell.edu male asian-pacific-islander CornellUniversity undergraduate 2022 Robin Lin
 david.baines@mail.utoronto.ca male caucasian TheUniversityofToronto undergraduate 2022 David Baines
 stephenjye@gmail.com male asian-pacific-islander TheUniversityofToronto undergraduate 2023 Stephen Ye
-khaber.eg@gmail.com male other TheUniversityofToronto undergraduate 2022 Khaled Gaber
+khaber.eg@gmail.com male other TheUniversityofToronto undergraduate 2022 Khaled Khaled.Gaber@Mail.Utoronto.Ca
 pkalra@sdsu.edu male asian-pacific-islander SanDiegoStateUniversity undergraduate 2021 Pranav Kalra
 rupin.khadwal@hotmail.com male asian-pacific-islander TheUniversityofToronto undergraduate 2023 Rupin Khadwal
 yawar1ashraf@gmail.com male no-answer TheUniversityofToronto undergraduate 2023 Yawar Ashraf

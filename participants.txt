@@ -22,7 +22,7 @@ andrewguo7727@gmail.com male asian-pacific-islander TheUniversityofWaterloo unde
 mengzhuli.li@mail.utoronto.ca female asian-pacific-islander UniversityofToronto undergraduate 2022 Mengzhu Li
 xuening.dong@mail.utoronto.ca female asian-pacific-islander TheUniversityofToronto undergraduate 2022 Xuening Dong
 ryanfabek@gmail.com male caucasian TheUniversityofOttawa undergraduate 2021 Ryan Fabek
-karl.zhu@uwaterloo.ca male asian-pacific-islander TheUniversityofWaterloo undergraduate 2024 Karl Zhu
+2009karlzhu@gmail.com male asian-pacific-islander TheUniversityofWaterloo undergraduate 2024 Karl Zhu
 kevo.zhu@mail.utoronto.ca male asian-pacific-islander TheUniversityofToronto undergraduate 2023 Kevin Zhu
 mquinonez@ryerson.ca male asian-pacific-islander RyersonUniversity undergraduate 2024 Mark-Ryan Quinonez
 whalewhaleking@gmail.com male asian-pacific-islander TheUniversityofTorontoMississauga undergraduate 2023 Hieu Nguyen
@@ -116,7 +116,7 @@ jack.cai@mail.utoronto.ca male asian-pacific-islander TheUniversityofToronto und
 zl755@cornell.edu male asian-pacific-islander CornellUniversity undergraduate 2022 Robin Lin
 david.baines@mail.utoronto.ca male caucasian TheUniversityofToronto undergraduate 2022 David Baines
 stephenjye@gmail.com male asian-pacific-islander TheUniversityofToronto undergraduate 2023 Stephen Ye
-khaber.eg@gmail.com male other TheUniversityofToronto undergraduate 2022 Khaled Khaled.Gaber@Mail.Utoronto.Ca
+khaber.eg@gmail.com male other TheUniversityofToronto undergraduate 2022 Khaled Gaber
 pkalra@sdsu.edu male asian-pacific-islander SanDiegoStateUniversity undergraduate 2021 Pranav Kalra
 rupin.khadwal@hotmail.com male asian-pacific-islander TheUniversityofToronto undergraduate 2023 Rupin Khadwal
 yawar1ashraf@gmail.com male no-answer TheUniversityofToronto undergraduate 2023 Yawar Ashraf
@@ -131,7 +131,7 @@ chokpisit.kasemphaibulsuk@mail.utoronto.ca male asian-pacific-islander TheUniver
 mayankj2112@gmail.com no-answer no-answer TheUniversityofWaterloo undergraduate 2025 Mayank Jain
 rishabh.iyer@mail.utoronto.ca male asian-pacific-islander TheUniversityofToronto undergraduate 2025 Rishabh Iyer
 ayman.abdulkadir@ontariotechu.net male black-african-american TheUniversityofOntarioInstituteofTechnology undergraduate 2022 Ayman Abdulkadir
-amr.vijayakumar@mail.utoronto.ca male asian-pacific-islander TheUniversityofToronto undergraduate 2023 Ajeya Madhava Rao Vijayakumar
+ajeyamadhavarao@gmail.com male asian-pacific-islander TheUniversityofToronto undergraduate 2023 Ajeya Madhava Rao Vijayakumar
 kenjohnson0704@gmail.com male other TheUniversityofBritishColumbia undergraduate 2023 Ken Johnson
 piya.bhattacharya@mail.utoronto.ca female asian-pacific-islander TheUniversityofToronto undergraduate 2023 Piya Bhattacharya
 k.archishman@gmail.com male asian-pacific-islander McMasterUniversity undergraduate 2024 Archishman Kabiraj

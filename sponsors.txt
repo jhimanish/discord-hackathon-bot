@@ -21,4 +21,6 @@ kantar@qti.qualcomm.com Kanta Qualcomm
 max@entrepreneurfirst.org.uk Max Entrepreneur First
 lucie@entrepreneurfirst.org.uk Lucie Entrepreneur First
 maja@entrepreneurfirst.org.uk Maja Entrepreneur First
+zina.saheb@huawei.com Zina Huawei
+Andrew.Marshall@huawei.com Andrew Huawei
 jhimanish@gmail.com Himanish Jindal IEEE UofT

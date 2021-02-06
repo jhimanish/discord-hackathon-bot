@@ -24,6 +24,7 @@ class Announcements(commands.Cog):
         nowSplit = now.split()
         nowSplit[2] = str(int(nowSplit[2])) + "th"
         nowSplit[3] = str(int(nowSplit[3])) + ":" + nowSplit[4]
+        print(nowSplit)
         channel = self.bot.get_channel(807631123927662592)  # CHANGE ID
         for i in announcements:
             j = i.split()
@@ -35,11 +36,12 @@ class Announcements(commands.Cog):
                 and j[4] == nowSplit[5]
             ):
                 if channel != None:
+                    print("Announcement")
                     role = discord.utils.get(
                         self.bot.get_guild(795110144509345802).roles, name="Hacker"
                     )
                     messages = "Hey " + role.mention + " " + " ".join(j[5:])
-                    await channel.send(messages)
+                    # await channel.send(messages)
 
 
 def setup(bot):

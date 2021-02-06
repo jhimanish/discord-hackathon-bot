@@ -26,7 +26,7 @@ class Announcements(commands.Cog):
         nowSplit = now.split()
         nowSplit[2] = str(int(nowSplit[2])) + "th"
         nowSplit[3] = str(int(nowSplit[3])) + ":" + nowSplit[4]
-        channel = self.bot.get_channel(807666054058475520)  # CHANGE ID
+        channel = self.bot.get_channel(795756120944934923)  # CHANGE ID
         for i in announcements:
             j = i.split()
             if (

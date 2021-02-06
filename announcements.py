@@ -36,7 +36,7 @@ class Announcements(commands.Cog):
             ):
                 if channel != None:
                     role = discord.utils.get(
-                        self.bot.get_guild(794312996314546196).roles, name="Hacker"
+                        self.bot.get_guild(795110144509345802).roles, name="Hacker"
                     )
                     messages = "Hey " + role.mention + " " + " ".join(j[5:])
                     await channel.send(messages)

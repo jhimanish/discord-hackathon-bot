@@ -2,6 +2,7 @@ import asyncio
 from datetime import datetime
 from discord.ext import tasks, commands
 import discord
+from pytz import timezone
 
 # reading announcements file
 announcements = []
@@ -20,7 +21,8 @@ class Announcements(commands.Cog):
 
     @tasks.loop(seconds=60)
     async def printer(self):
-        now = datetime.strftime(datetime.now(), "%A, %B %d %I %M %p")
+        tz = timezone("EST")
+        now = datetime.strftime(datetime.now(tz), "%A, %B %d %I %M %p")
         nowSplit = now.split()
         nowSplit[2] = str(int(nowSplit[2])) + "th"
         nowSplit[3] = str(int(nowSplit[3])) + ":" + nowSplit[4]

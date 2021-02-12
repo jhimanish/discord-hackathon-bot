@@ -66,7 +66,12 @@ async def verify(ctx, email_address):
     already_verified = False
     # check if user is already verified
     for role in ctx.author.roles:
-        if "Hacker" == role.name or "IEEE" == role.name or "Sponsor" == role.name:
+        if (
+            "Hacker" == role.name
+            or "IEEE" == role.name
+            or "Sponsor" == role.name
+            or "Mentor" == role.name
+        ):
             already_verified = True
             await ctx.send(
                 "You cannot use this command as you have already been verified.",
@@ -87,6 +92,10 @@ async def verify(ctx, email_address):
         sponsors_arr = []
         with open("sponsors.txt") as f:
             sponsors_arr = f.read().splitlines()
+
+        mentors_arr = []
+        with open("mentors.txt") as f:
+            mentors_arr = f.read().splitlines()
 
         # checking for ieee email address
         for i in ieee_list_arr:
@@ -164,6 +173,32 @@ async def verify(ctx, email_address):
                     # perms
                     await ctx.author.edit(nick=" ".join(j[6:]))
                     role = discord.utils.get(ctx.guild.roles, name="Hacker")
+                    await ctx.author.add_roles(role)
+                if found == True:
+                    await ctx.send(
+                        "This email has already been used. If this is an error, please contact @Himanish",
+                        delete_after=4.0,
+                    )
+                break
+
+        # check for mentors
+        for i in mentors_arr:
+            j = i.split()
+            if j[0].lower() == email_address.lower():
+                # check if user already exists
+                members = ctx.guild.members
+                found = False
+                for i in members:
+                    if i.nick == (j[-1] + " (Mentor)"):
+                        for role in i.roles:
+                            if "Mentor" == role.name:
+                                found = True
+                if found == False:
+                    # send message about being verified
+                    await ctx.send("You have been verified", delete_after=4.0)
+                    # perms
+                    await ctx.author.edit(nick=j[-1] + " (Mentor)")
+                    role = discord.utils.get(ctx.guild.roles, name="Mentor")
                     await ctx.author.add_roles(role)
                 if found == True:
                     await ctx.send(

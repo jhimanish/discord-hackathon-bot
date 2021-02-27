@@ -228,6 +228,6 @@ async def on_message(message):
         await message.delete(delay=4.0)
 
 
-# bot.load_extension("announcements")
+bot.load_extension("announcements")
 
 bot.run(TOKEN)

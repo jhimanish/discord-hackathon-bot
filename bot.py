@@ -224,6 +224,7 @@ async def on_command_error(ctx, error):
 @bot.listen()
 async def on_message(message):
     split_message = message.content.split()
+    print(split_message)
     if split_message[0] != "!verify" and message.channel.name == "verification":
         await message.delete(delay=4.0)
 

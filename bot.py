@@ -34,28 +34,20 @@ async def info(ctx, *, name):
     # check if in participants list
     for i in participants_arr:
         j = i.split()
-        if name.lower() in (" ".join(j[6:])).lower():
+        if name.lower() in (" ".join(j[1:])).lower():
             new_message = (
                 "Name: "
-                + j[-2]
+                + j[1]
                 + " "
-                + j[-1]
+                + j[2]
                 + "\nEmail: "
                 + j[0]
-                + "\nGender: "
-                + j[1]
-                + "\nEthnicity: "
-                + j[2]
-                + "\nSchool: "
-                + re.sub(r"([A-Z])", r" \1", j[3])
-                + "\nStudy level and Graduation: "
-                + " ".join(j[4:6])
             )
             # create an @ for them in the channel
             members = ctx.guild.members
             new_message2 = new_message
             for i in members:
-                if i.nick == " ".join(j[6:]):
+                if i.nick == " ".join(j[1:]):
                     new_message2 = new_message + "\n" + i.mention
             await ctx.send(new_message2)
 
@@ -164,7 +156,7 @@ async def verify(ctx, email_address):
                 members = ctx.guild.members
                 found = False
                 for i in members:
-                    if i.nick == (" ".join(j[6:])):
+                    if i.nick == (" ".join(j[1:])):
                         for role in i.roles:
                             if "Hacker" == role.name:
                                 found = True
@@ -172,7 +164,7 @@ async def verify(ctx, email_address):
                     # send message about being verified
                     await ctx.send("You have been verified", delete_after=4.0)
                     # perms
-                    await ctx.author.edit(nick=" ".join(j[6:]))
+                    await ctx.author.edit(nick=" ".join(j[1:]))
                     role = discord.utils.get(ctx.guild.roles, name="Hacker")
                     await ctx.author.add_roles(role)
                 if found == True:

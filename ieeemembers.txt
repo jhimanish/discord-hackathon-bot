@@ -1,48 +1,48 @@
-nhien.tran.nguyen@mail.utoronto.ca MakeUofT Organizer Nhien
-lindaa.wu@mail.utoronto.ca MakeUofT Organizer Linda
-martin.ffrench@mail.utoronto.ca MakeUofT Organizer Martin
-lisasa.li@mail.utoronto.ca MakeUofT Organizer Lisa
-quinlan.sykora@mail.utoronto.ca MakeUofT Organizer Quinlan
-Kevinhk.zhang@mail.utoronto.ca MakeUofT Organizer Kevin
-hcz.zhang@mail.utoronto.ca MakeUofT Director Haochen
-Katherine.liang@mail.utoronto.ca MakeUofT Organizer Katherine
-meifeng.yu@mail.utoronto.ca MakeUofT Organizer MeiFeng
-harsimrat.wadhawan@mail.utoronto.ca MakeUofT Organizer Harsimrat
-shyam.menon@mail.utoronto.ca  MakeUofT Organizer Shyam
-kushagra.goel@mail.utoronto.ca MakeUofT Organizer Kushagra
-trudie.cheung@mail.utoronto.ca MakeUofT Organizer Trudie
-fumi.shibutani@mail.utoronto.ca MakeUofT Organizer Fumi
-Rushi.wang@mail.utoronto.ca MakeUofT Organizer Rosie
-mengjue.chen@mail.utoronto.ca MakeUofT Organizer Andrew
-william.flint@mail.utoronto.ca MakeUofT Organizer William
-shuyiw.wang@mail.utoronto.ca MakeUofT Organizer Shuyi
-smile.peng@mail.utoronto.ca MakeUofT Organizer Smile
-bikramjit.narwal@mail.utoronto.ca MakeUofT Organizer Bikramjit
-Mojtaba.khavaninzadeh@mail.utoronto.ca MakeUofT Organizer Mojtaba
-matthewchingho.leung@mail.utoronto.ca MakeUofT Organizer Matthew
-Kathy.zhuang@mail.utoronto.ca MakeUofT Organizer Kathy
-ishaa.sharma@mail.utoronto.ca MakeUofT Organizer Isha
-chenhui.yeh@mail.utoronto.ca MakeUofT Organizer Tiffany
-skyler.zhang@mail.utoronto.ca MakeUofT Organizer Skyler
-Soliman.ali@mail.utoronto.ca MakeUofT Organizer Soliman
-xiaoen.zhang@mail.utoronto.ca Mentor Shawn
-raghav.srinivasan@mail.utoronto.ca  Mentor Raghav
-u.modi@mail.utoronto.ca Mentor Urmil
-chanhyukyang.yang@mail.utoronto.ca  Mentor Chan
-Fahim.Talukder@mail.utoronto.ca Mentor Fahim
-selena.liu@mail.utoronto.ca Mentor Selena
-stephy.yang@mail.utoronto.ca Mentor Stephen
-alex.bogdan@mail.utoronto.ca MakeUofT Organizer Alex
-graham.hoyes@mail.utoronto.ca MakeUofT Organizer Graham
-akinori.kimura@mail.utoronto.ca MakeUofT Organizer Akinori
-Seyedarmin.alemohammad@mail.utoronto.ca MakeUofT Organizer Armin
-siddharth.vijay@mail.utoronto.ca MakeUofT Organizer Siddharth
-annam.shamas@mail.utoronto.ca Hacker Annam
-floria.fang@mail.utoronto.ca Hacker Floria
-ireneyr.li@mail.utoronto.ca Hacker Irene
-anmol.mahajan@mail.utoronto.ca Hacker Anmol
-himanish.jindal@mail.utoronto.ca MakeUofT Organizer Himanish
-julia.wagner@mail.utoronto.ca MakeUofT Director Julia
-gaurav.ranganath@mail.utoronto.ca MakeUofT Director Gaurav
-brenny.chao@mail.utoronto.ca MakeUofT Director Brenny
-pi.sharma@mail.utoronto.ca MakeUofT Organizer Piyush
+julia.wagner@mail.utoronto.ca  Hackathon Organizer Julia
+smile.peng@mail.utoronto.ca Hackathon Organizer Smile
+katherine.liang@mail.utoronto.ca Hackathon Organizer Katherine
+himanish.jindal@mail.utoronto.ca Hackathon Director Himanish
+floria.fang@mail.utoronto.ca Hackathon Director Floria
+judy.yue@mail.utoronto.ca Hackathon Organizer Judy
+rayan.hossain@mail.utoronto.ca Hackathon Organizer Rayan
+srinidhi.shankar@mail.utoronto.ca Hackathon Director Srinidhi
+eri.yoshida@mail.utoronto.ca Hackathon Organizer Eri
+m.teferi@mail.utoronto.ca Hackathon Organizer Martha
+simonwithnoe.wang@mail.utoronto.ca Hackathon Organizer Simon
+alicexyz.zhou@mail.utoronto.ca Hackathon Director Alice
+amelie.wang@mail.utoronto.ca Hackathon Organizer Amelie
+alisha.pham@mail.utoronto.ca Hackathon Director Alisha
+ellina.zhang@mail.utoronto.ca Hackathon Organizer Ellina
+yunjia.hao@mail.utoronto.ca Hackathon Organizer Yun Jia
+sanjana.dasadia@mail.utoronto.ca Hackathon Organizer Sanjana
+abc.cheung@mail.utoronto.ca Hackathon Director Andrew
+tasnim.reza@mail.utoronto.ca Hackathon Director Tasnim
+pratibha.thakur@mail.utoronto.ca Hackathon Organizer Pratibha
+natalieanna.chan@mail.utoronto.ca Hackathon Organizer Natalie
+tehreem.masood@mail.utoronto.ca Hackathon Director Tehreem
+dalia.mahidashti@mail.utoronto.ca Hackathon Director Dalia
+ananya.sharma@mail.utoronto.ca Hackathon Organizer Ananya
+m.bahadur@mail.utoronto.ca Hackathon Organizer Mihika
+tangia.zhou@mail.utoronto.ca Hackathon Organizer Tangia
+shikhar.chaurasia@mail.utoronto.ca Mentor Shikhar
+sharmieka.premaseelan@mail.utoronto.ca Mentor Sharmieka
+nick.nabavi@mail.utoronto.ca  Mentor Nick
+tudor.sigmund@mail.utoronto.ca Mentor Tudor
+a.sim@mail.utoronto.ca Mentor Alastair
+samuelt.liu@mail.utoronto.ca Mentor Samuel
+berke.altiparmak@mail.utoronto.ca Mentor Berke
+preetha.manohar@mail.utoronto.ca Mentor Preetha
+daniel.qiu@mail.utoronto.ca Mentor Daniel
+ja.liao@mail.utoronto.ca Mentor Jiaheng
+avelyn.wong@mail.utoronto.ca Hackathon Director Avelyn
+fahim.talukder@mail.utoronto.ca Hackathon Director Fahim
+leeoo.li@mail.utoronto.ca Hackathon Director Leo
+erichanxiang.ji@mail.utoronto.ca Hackathon Organizer Eric
+karandeep.lubana@mail.utoronto.ca Hackathon Organizer Karandeep
+d.alshekerchi@mail.utoronto.ca Hackathon Organizer Dana
+luke.cheseldine@mail.utoronto.ca Hackathon Organizer Luke
+ethan.hugh@mail.utoronto.ca Hackathon Organizer Ethan
+arsh.kadakia@mail.utoronto.ca Hackathon Organizer Arsh
+mustafa.abdulrahman@mail.utoronto.ca Hackathon Director Mustafa
+yuying.liang@mail.utoronto.ca Hackathon Director YuYing
+t.luan@mail.utoronto.ca Hackathon Organizer Terry

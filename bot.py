@@ -13,7 +13,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 
 # 2
 # bot = commands.Bot(command_prefix="!")
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 

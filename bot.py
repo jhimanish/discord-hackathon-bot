@@ -62,7 +62,6 @@ async def info(ctx, *, name):
 
 @bot.command(name="verify", pass_context=True)
 async def verify(ctx, email_address):
-
     already_verified = False
     # check if user is already verified
     for role in ctx.author.roles:
@@ -119,9 +118,10 @@ async def verify(ctx, email_address):
                     role = discord.utils.get(ctx.guild.roles, name=" ".join(j[1:-1]))
                     await ctx.author.add_roles(role)
                 if found == True:
+                    himanish = discord.utils.get(ctx.message.guild.members, name='Himanish')
                     await ctx.send(
-                        "This email has already been used. If this is an error, please contact @Himanish",
-                        delete_after=4.0,
+                        "This email has already been used. If this is an error, please contact " + himanish.mention,
+                        delete_after=6.0,
                     )
                 break
 
@@ -149,9 +149,10 @@ async def verify(ctx, email_address):
                     role = discord.utils.get(ctx.guild.roles, name="Sponsor")
                     await ctx.author.add_roles(role)
                 if found == True:
+                    himanish = discord.utils.get(ctx.message.guild.members, name='Himanish')
                     await ctx.send(
-                        "This email has already been used. If this is an error, please contact @Himanish",
-                        delete_after=4.0,
+                        "This email has already been used. If this is an error, please contact " + himanish.mention,
+                        delete_after=6.0,
                     )
                 break
 
@@ -175,9 +176,10 @@ async def verify(ctx, email_address):
                     role = discord.utils.get(ctx.guild.roles, name="Hacker")
                     await ctx.author.add_roles(role)
                 if found == True:
+                    himanish = discord.utils.get(ctx.message.guild.members, name='Himanish')
                     await ctx.send(
-                        "This email has already been used. If this is an error, please contact @Himanish",
-                        delete_after=4.0,
+                        "This email has already been used. If this is an error, please contact " + himanish.mention,
+                        delete_after=6.0,
                     )
                 break
 
@@ -201,13 +203,14 @@ async def verify(ctx, email_address):
                     role = discord.utils.get(ctx.guild.roles, name="Mentor")
                     await ctx.author.add_roles(role)
                 if found == True:
+                    himanish = discord.utils.get(ctx.message.guild.members, name='Himanish')
                     await ctx.send(
-                        "This email has already been used. If this is an error, please contact @Himanish",
-                        delete_after=4.0,
+                        "This email has already been used. If this is an error, please contact " + himanish.mention,
+                        delete_after=6.0,
                     )
                 break
 
-    await ctx.message.delete()
+    await ctx.message.delete(delay=4.0)
 
 
 @bot.event

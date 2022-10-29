@@ -46,3 +46,4 @@ arsh.kadakia@mail.utoronto.ca Hackathon Organizer Arsh
 mustafa.abdulrahman@mail.utoronto.ca Hackathon Director Mustafa
 yuying.liang@mail.utoronto.ca Hackathon Director YuYing
 t.luan@mail.utoronto.ca Hackathon Organizer Terry
+hcz.zhang@mail.utoronto.ca MakeUofT Organizer Haochen
